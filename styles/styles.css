@@ -1,0 +1,192 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+
+/* banner styles */
+
+.banner {
+    text-align: right;
+    padding: 216px 230px 365px 845px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: right;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.banner-btn {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 20px 25px;
+    margin-top: 32px;
+}
+
+.header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+}
+
+/* first-section styles */
+
+.first-section {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 300px;
+    gap: 90px;
+}
+
+.first-section-title {
+    padding-top: 220px;
+}
+
+.first-section-subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.first-section-description {
+    color: #444343;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* second-section styles */
+
+.scd-sct-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.snd-sct-skill {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.snd-sct-web-info {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.second-section {
+    display: flex;
+    margin: 0 230px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+/* third-section styles */
+
+.section-third {
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 125px;
+    margin-bottom: 130px;
+    background-image: url('../images/watch.png');
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 8px;
+    background-position: center;
+}
+
+.section-third .section-trd-div {
+    background-image: url('../images/gradient2.png');
+}
+.section-trd-div{
+    padding-left: 64px;
+    align-items: center;
+
+}
+
+.trd-sct-title {
+    font-weight: 700;
+    padding-bottom: 150px;
+    padding-top: 60px;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-right: 400px;
+
+}
+
+/* .btn-trd {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 0;
+    text-align: center;
+} */
+
+/* footer-syles */
+
+.footer {
+    display: flex;
+    background: #151414;
+    color: #FFFFFF;
+    gap: 330px;
+    height: 580px;
+    width: 100%;
+}
+
+
+.footer-desciption {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-div-right {
+    padding-top: 130px;
+    padding-right: 230px;
+}
+
+.footer-div-left {
+    padding-top: 130px;
+    padding-left: 230px;
+    padding-bottom: 130px;
+}
+
+.footer-btn {
+    width: 170px;
+    height: 64px;
+    border-radius: 8px;
+    color: #F15B22;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: black;
+}
