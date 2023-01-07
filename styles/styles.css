@@ -109,23 +109,16 @@
     background-image: url('../images/watch.png');
     border-radius: 5px;
     background-repeat: no-repeat;
-    background-size:cover;
     border-radius: 8px;
-    background-position: center;
 }
 
 .section-third .section-trd-div {
     background-image: url('../images/gradient2.png');
 }
-.section-trd-div{
-    padding-left: 64px;
-    align-items: center;
-
-}
 
 .trd-sct-title {
     font-weight: 700;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     padding-top: 60px;
     font-size: 40px;
     color: #FFFFFF;
@@ -133,17 +126,12 @@
 
 }
 
-/* .btn-trd {
-    position: absolute;
-    width: 160px;
-    height: 64px;
-    font-size: 20px;
-    color: #F15B22;
-    border-radius: 5px;
-    background: #FFFFFF;
-    border: 0;
-    text-align: center;
-} */
+.section-trd-div {
+    padding-left: 64px;
+    padding-bottom: 60px;
+    max-height: 300px;
+    margin: 0;
+}
 
 /* footer-syles */
 
